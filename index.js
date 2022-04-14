@@ -171,8 +171,9 @@ app.post('/textmail', (req, res) => {
 //     });
 // });
 
-app.listen(port, () => {
-    console.log('Application  listening on port 8081!');
+const server = app.listen(port, () => {
+    const port = server.address().port;
+    console.log('Application  listening on port ${port}!');
 });
 
 
