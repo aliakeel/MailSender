@@ -1,7 +1,7 @@
-SHOPIFY_API_KEY="edf2fa3b505f33eb29127a00af8965f3"
-SHOPIFY_API_SECRET="bcfd9ead40d4a7a1ec5fdbac31e466ec"
-TUNNEL_URL="https://ee6c-148-251-29-53.ngrok.io"
-SCOPES = "read_customers"
+const SHOPIFY_API_KEY="edf2fa3b505f33eb29127a00af8965f3"
+const SHOPIFY_API_SECRET="bcfd9ead40d4a7a1ec5fdbac31e466ec"
+const TUNNEL_URL="https://ee6c-148-251-29-53.ngrok.io"
+const SCOPES = "read_customers"
 const crypto = require('crypto');
 const express = require('express');
 const app = express();
